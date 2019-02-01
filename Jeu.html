@@ -9,12 +9,13 @@
   <body>
     <form method="post" name="Jeu de calcul" id="FormJeu" action="">
       <div class="calcul">
-         <p>Jeu de calcul</p>
+         <p>Calcul pour les nuls</p>
       </div>
-      <div class="center">   
+      <div class="center"> 
+          <input type="button" class="submit" id="Aleatoire" value="Aléatoire" onclick="Game('2',true)"/>
           <input type="button" class="submit" id="Addition" value="Addition" onclick="Game('+',true)"/>
           <input type="button" class="submit" id="Soustraction" value="Soustraction" onclick="Game('-',true)"/>
-          <input type="button" class="submit" id="Aleatoire" value="Aléatoire" onclick="Game('2',true)"/>
+          
       </div>
       <div class="code">
        <label class="calcul" id="Calcul"></label>
